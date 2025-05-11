@@ -1,0 +1,74 @@
+body {
+    background: white;
+}
+.container {
+    text-align: center;
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+    width: 600px;
+    border-radius: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-55%);
+    box-shadow: 0 0 0.4rem #b5b5b5;
+}
+
+h3 {
+    margin-block: 0.75rem 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    margin: 2rem 0;
+    gap: 1rem;
+}
+.number,
+.operator {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 14rem;
+}
+.operator button {
+    background: #fdfdfd;
+    color: #15256b;
+    border: 1px solid grey;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    box-shadow: 0 1px 2px grey;
+}
+.operator button:focus {
+    background-color: yellow;
+}
+input {
+    text-align: center;
+    height: 4.1rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: 1px solid grey;
+    font-size: 2rem;
+    padding-inline: 1rem;
+    box-shadow: 0 1px 1px grey;
+}
+.reset {
+    background: green;
+    width: 22rem;
+    color: white;
+    cursor: pointer;
+}
+.reset:hover {
+    color: yellow;
+}
+.result {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem;
+}

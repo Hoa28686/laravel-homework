@@ -1,0 +1,84 @@
+:root {
+    --cell-border: 1.5px solid #777777;
+    --border-white: 1.5px solid white;
+    --accent-1: #ff2200de;
+}
+body {
+    background: #f2ecee;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+    width: 70%;
+    margin: 2rem auto;
+}
+
+header {
+    margin-bottom: 1.5rem;
+}
+button,
+input {
+    font-size: inherit;
+    cursor: pointer;
+}
+.btn,
+.input {
+    border: 0 solid transparent;
+    padding-block: 0.8rem;
+}
+.btn,
+thead {
+    color: white;
+    background: #2a8379;
+}
+
+.btn {
+    width: 10rem;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.btn:hover {
+    color: #adf35d;
+}
+
+.input {
+    border-left: 0.4rem solid #d9cfd3;
+    padding-inline: 0.5rem;
+    margin-block: 1rem;
+    width: 13rem;
+    border-radius: 2px;
+}
+
+.input:focus {
+    outline: 1px solid #2a8379;
+}
+.alert {
+    color: var(--accent-1);
+    margin-top: 1em;
+}
+
+/* table cell border */
+table {
+    border-collapse: collapse;
+}
+table tr:nth-child(even) {
+    background: white;
+}
+td,
+th {
+    padding: 0.8rem 0.5rem;
+    width: 25rem;
+}
+tr {
+    border-bottom: var(--cell-border);
+}
+tr:last-child {
+    border-bottom: none;
+}
+tr td:first-child {
+    border-right: var(--cell-border);
+}
+table,
+th {
+    border: var(--border-white);
+}
