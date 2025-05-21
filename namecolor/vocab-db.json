@@ -1,0 +1,124 @@
+{
+  "words": [
+    {
+      "id": "02RTCAgoAXRCRDqKrAQj",
+      "createdAt": { "seconds": 1745685326, "nanoseconds": 894000000 },
+      "example": "Hän on mukava henkilö. (He is a nice person.)",
+      "pronunciation": "/ˈhen.ki.lø/",
+      "category": "Common",
+      "difficulty": "beginner",
+      "english": "person",
+      "finnish": "henkilö",
+      "updatedAt": { "seconds": 1745685326, "nanoseconds": 894000000 }
+    },
+    {
+      "id": "02gmqWqwHrEeYgAow3i9",
+      "timestamp": { "seconds": 1746705650, "nanoseconds": 611000000 },
+      "finnish": "satu",
+      "example": "Lapsi kuunteli satu.",
+      "createdAt": { "seconds": 1746705714, "nanoseconds": 18000000 },
+      "category": "nouns",
+      "updatedAt": { "seconds": 1746705714, "nanoseconds": 18000000 },
+      "difficulty": "beginner",
+      "pronunciation": "/ˈsa.tu/",
+      "english": "fairy tale"
+    },
+    {
+      "id": "02yqLWhQrcz33uDY1COS",
+      "timestamp": { "seconds": 1746767341, "nanoseconds": 818000000 },
+      "english": "holy",
+      "finnish": "pyhille",
+      "pronunciation": "/ˈpy.hil.le/",
+      "createdAt": { "seconds": 1746767382, "nanoseconds": 429000000 },
+      "updatedAt": { "seconds": 1746767382, "nanoseconds": 429000000 },
+      "example": "Hän uhrasi pyhille.",
+      "difficulty": "advanced",
+      "category": "adjectives"
+    },
+    {
+      "id": "03h0u5ozUHUCBaACwWVu",
+      "english": "leave",
+      "timestamp": { "seconds": 1746767341, "nanoseconds": 818000000 },
+      "updatedAt": { "seconds": 1746767385, "nanoseconds": 888000000 },
+      "createdAt": { "seconds": 1746767385, "nanoseconds": 888000000 },
+      "example": "Jättäkää ovi auki!",
+      "finnish": "jättäkää",
+      "difficulty": "beginner",
+      "category": "verbs",
+      "pronunciation": "/ˈjæt.tæ.kæː/"
+    },
+    {
+      "id": "03zFZ8ssCAmc4BoAo3Gd",
+      "example": "Ostin viisi omenaa. (I bought five apples.)",
+      "difficulty": "beginner",
+      "updatedAt": { "seconds": 1745685324, "nanoseconds": 316000000 },
+      "createdAt": { "seconds": 1745685324, "nanoseconds": 316000000 },
+      "pronunciation": "/ˈvii.si/",
+      "finnish": "viisi",
+      "english": "five",
+      "category": "Basics"
+    },
+    {
+      "id": "04D2Z3LEGDIFF0hXpMT7",
+      "pronunciation": "/ˈto.teu.tet.tu/",
+      "difficulty": "intermediate",
+      "category": "verbs",
+      "timestamp": { "seconds": 1746699149, "nanoseconds": 373000000 },
+      "updatedAt": { "seconds": 1746699165, "nanoseconds": 46000000 },
+      "createdAt": { "seconds": 1746699165, "nanoseconds": 46000000 },
+      "finnish": "toteutettu",
+      "english": "implemented",
+      "example": "Projekti on toteutettu."
+    },
+    {
+      "id": "04YixfNukNrWPqHcaPS6",
+      "pronunciation": "/ˈos.te.tɑːn/",
+      "timestamp": { "seconds": 1746689397, "nanoseconds": 576000000 },
+      "english": "is bought",
+      "updatedAt": { "seconds": 1746689419, "nanoseconds": 642000000 },
+      "category": "verbs",
+      "finnish": "ostetaan",
+      "example": "Tämä kirja ostetaan usein.",
+      "createdAt": { "seconds": 1746689419, "nanoseconds": 642000000 },
+      "difficulty": "beginner"
+    },
+    {
+      "id": "056u4Srg2Hotz6OE78of",
+      "createdAt": { "seconds": 1746693496, "nanoseconds": 292000000 },
+      "example": "Olen katsellut elokuvia.",
+      "difficulty": "beginner",
+      "english": "watched",
+      "timestamp": { "seconds": 1746693450, "nanoseconds": 915000000 },
+      "category": "verbs",
+      "pronunciation": "/ˈkɑt.sel.lut/",
+      "updatedAt": { "seconds": 1746693496, "nanoseconds": 292000000 },
+      "finnish": "katsellut"
+    },
+    {
+      "id": "057LrqRgSbsZUZ3R8DPN",
+      "createdAt": { "seconds": 1746699215, "nanoseconds": 650000000 },
+      "updatedAt": { "seconds": 1746699215, "nanoseconds": 650000000 },
+      "english": "claimed",
+      "pronunciation": "/ˈvæit.tæ.nyt.kæːn/",
+      "timestamp": { "seconds": 1746699149, "nanoseconds": 374000000 },
+      "finnish": "väittänytkään",
+      "difficulty": "advanced",
+      "example": "En väittänytkään niin.",
+      "category": "verbs"
+    },
+    {
+      "id": "05IZcMDumC4TTFJkHPG9",
+      "updatedAt": { "seconds": 1746874850, "nanoseconds": 0 },
+      "category": "verbs",
+      "timestamp": { "seconds": 1746874758, "nanoseconds": 546000000 },
+      "example": "Kulje varovasti pime�ss�!",
+      "finnish": "kulje",
+      "pronunciation": "/'kul.je/",
+      "english": "walk",
+      "createdAt": { "seconds": 1746874850, "nanoseconds": 0 },
+      "difficulty": "beginner"
+    }
+  ],
+  "pagination": { "total": 10, "page": 1, "limit": 10, "totalPages": 1 },
+  "remaining": 99
+}

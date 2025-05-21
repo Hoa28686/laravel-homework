@@ -1,0 +1,59 @@
+.center {
+    text-align: center;
+}
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flashCard {
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 3px grey;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8rem;
+    transition: transform 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+.flashCard:hover {
+    transform: scale(1.05);
+}
+.flashCard:nth-child(3n) {
+    background-color: #ffffff;
+}
+.flashCard:nth-child(3n + 1) {
+    background-color: yellow;
+}
+.flashCard:nth-child(3n + 2) {
+    background-color: rgb(0, 255, 30);
+}
+
+.card-back {
+    transform: rotateY(-180deg);
+}
+.flashCard.flipped {
+    transform: rotateY(-180deg);
+}
+.save {
+    font-size: 2rem;
+    position: absolute;
+    top: -3rem;
+    right: -1rem;
+    transition: all 0.2s;
+}
+
+.unsaved {
+    font-size: 2.5rem;
+    top: -3.5rem;
+}
+.flipped .save {
+    left: -17rem;
+}
