@@ -14,6 +14,8 @@ This project extends the original Name and Color Manager app by adding a Finnish
 
 ### Tech Stack
 
-Frontend: React, run with npm run dev
-Backend: Laravel - blade route and APIs
-Database: local list of all words, run with npm run server
+-   Frontend: React, run with npm run dev
+
+-   Backend: Laravel - blade route and APIs
+
+-   Database: local list of all words, run with npm run server
